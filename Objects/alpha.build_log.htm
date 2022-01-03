@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\LPC_PWM\alpha.uvproj
+Project File Date:  12/28/2021
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling pwm.c...
+pwm.c(11): warning:  #550-D: variable "ChannelNumber" was set but never used
+        Pwm_ChannelType ChannelNumber;
+pwm.c(14): warning:  #550-D: variable "DefaultPolarity" was set but never used
+        Pwm_OutputStateType DefaultPolarity;
+pwm.c(15): warning:  #550-D: variable "DefaultIdleState" was set but never used
+        Pwm_OutputStateType DefaultIdleState;
+pwm.c: 3 warnings, 0 errors
+compiling Pwm_PbCfg.c...
+Pwm_PbCfg.c(29): warning:  #1-D: last line of file ends without a newline
+        
+Pwm_PbCfg.c: 1 warning, 0 errors
+compiling Pwm_Reg.c...
+compiling Mcu.c...
+compiling main.c...
+compiling Port.c...
+linking...
+Program Size: Code=1400 RO-data=32 RW-data=32 ZI-data=1256  
+FromELF: creating hex file...
+".\Objects\alpha.axf" - 0 Error(s), 4 Warning(s).
+</pre>
+</body>
+</html>

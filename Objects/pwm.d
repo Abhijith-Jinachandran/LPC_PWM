@@ -1,0 +1,14 @@
+.\Objects\pwm.o: pwm.c
+.\Objects\pwm.o: pwm.h
+.\Objects\pwm.o: Platform_Types.h
+.\Objects\pwm.o: Pwm_Types.h
+.\Objects\pwm.o: Platform_Types.h
+.\Objects\pwm.o: Std_Types.h
+.\Objects\pwm.o: Platform_Types.h
+.\Objects\pwm.o: Std_Types.h
+.\Objects\pwm.o: Platform_Types.h
+.\Objects\pwm.o: Pwm_Reg.h
+.\Objects\pwm.o: Std_Types.h
+.\Objects\pwm.o: Platform_Types.h
+.\Objects\pwm.o: Mcu.h
+.\Objects\pwm.o: Platform_Types.h

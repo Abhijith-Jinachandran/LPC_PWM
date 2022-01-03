@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\LPC_PWM\alpha.uvproj
+Project File Date:  12/28/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling pwm.c...
+pwm.c(11): warning:  #550-D: variable "ChannelNumber" was set but never used
+pwm.c(14): warning:  #550-D: variable "DefaultPolarity" was set but never used
+pwm.c(15): warning:  #550-D: variable "DefaultIdleState" was set but never used
+compiling Pwm_PbCfg.c...
+Pwm_PbCfg.c(29): warning:  #1-D: last line of file ends without a newline
+compiling Pwm_Reg.c...
+compiling Mcu.c...
+compiling main.c...
+compiling Port.c...
+linking...
+Program Size: Code=1364 RO-data=32 RW-data=24 ZI-data=1256  
+FromELF: creating hex file...
+".\Objects\alpha.axf" - 0 Error(s), 4 Warning(s).
+Load "D:\\LPC_PWM\\Objects\\alpha.AXF" 
+VTarget = 3.319V
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: RTCK is not connected
+Info: Auto JTAG speed: 5333 kHz
+Info: Core does not stop after Reset, setting WP to stop it.
+***JLink Warning: PC of target system has unexpected value of 0x000002DC after reset.
+DLL version V4.09p, compiled Oct 28 2009 17:33:00
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+Hardware-Breakpoints: 2
+Software-Breakpoints: 2048
+Watchpoints:          0
+Found 1 JTAG device, Total IRLen = 4:
+ Id of device #0: 0x4F1F0F0F
+ARM7 identified.
+JTAG speed: 5333 kHz
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: Core does not stop after Reset, setting WP to stop it.
+***JLink Warning: PC of target system has unexpected value of 0x40000004 after reset.
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: Core does not stop after Reset, setting WP to stop it.
+***JLink Warning: PC of target system has unexpected value of 0x40000000 after reset.
+JTAG speed: 1000 kHz
+Application running ...
+Load "D:\\LPC_PWM\\Objects\\alpha.AXF" 
+VTarget = 3.319V
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: RTCK is not connected
+Info: Auto JTAG speed: 1000 kHz
+Info: Core does not stop after Reset, setting WP to stop it.
+***JLink Warning: PC of target system has unexpected value of 0x00000014 after reset.
+DLL version V4.09p, compiled Oct 28 2009 17:33:00
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+Hardware-Breakpoints: 2
+Software-Breakpoints: 2048
+Watchpoints:          0
+Found 1 JTAG device, Total IRLen = 4:
+ Id of device #0: 0x4F1F0F0F
+ARM7 identified.
+JTAG speed: 1000 kHz
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: Core does not stop after Reset, setting WP to stop it.
+***JLink Warning: PC of target system has unexpected value of 0x40000000 after reset.
+JTAG speed: 1000 kHz
+Erase Done.
+Programming Done.
+Verify OK.
+Info: TotalIRLen = 4, IRPrint = 0x01
+Info: Core does not stop after Reset, setting WP to stop it.
+***JLink Warning: PC of target system has unexpected value of 0x40000000 after reset.
+JTAG speed: 1000 kHz
+Application running ...
